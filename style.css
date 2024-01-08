@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;   
 }
+/* common area */
 .container {
     width: 1320px;
     margin: 120px auto;
@@ -36,96 +37,79 @@ font-family: Inter;
 font-size: 20px;
 border: none;
 font-weight: 700;
+cursor: pointer;
 }
 /* header section */
 .banner {
-    background-image: url("resources/Banner\ Image.png");
-    width: 1320px;
-height: 600px;
-border-radius: 16px;
-margin: 50px auto;
+     background-image: url("resources/Banner\ Image.png");
+     width: 1320px;
+     height: 600px;
+     border-radius: 16px;
+     margin: 50px auto;
 }
 .banner-detail {
     border-radius: 16px;
     padding: 177px 344px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-}
-.banner-detail p {
     color: #FFF;
     text-align: center;
     font-family: Merriweather; 
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.banner-detail h3 {
     font-size: 32px;
     padding-bottom: 16px;
     font-weight: 400; 
 }
 .banner-detail h1 {
-    width: 632px;
-    color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 75px;
-font-weight: 900;
-line-height: 95px; 
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 95px; 
 }
 /* offer section */
-.offer {
-    width: 802.9px;
-margin: 120px auto;
+.offer { 
+    margin: 120px auto;
+    text-align: center;
+    font-family: Inter;
 }
 .offer h1 {
     color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-weight: 700;
-padding-bottom: 48px;
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 48px;
 }
 .offer h3 {
     color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
 } 
 .offer h2 {
     color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-padding-bottom: 48px;
-}
-.offer img {
-    width: 802.9px;
-    height: 500px;   
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 48px;
 }
 /* party section */
 .party-section {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("resources/Vectorrr.png");   
-    height: 600px;
-     border-radius: 16px;
+    border-radius: 16px;
 }
 .party {
     display: flex;
     flex-direction: row;
     justify-content: center;
-align-items: center;
-gap: 39px;
-width: 1320px;
-height: 600px;
-border-radius: 16px;
+    align-items: center;
+    gap: 39px;
+    width: 1320px;
+    height: 600px;  
 }
 .party-detail {
-    width: 697px;
     display: flex;
     flex-direction: column;
     justify-content: left; 
-   
+    width: 697px;
 }
 .party-detail h1 {
-    width: 642px;
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
@@ -135,7 +119,6 @@ border-radius: 16px;
     padding-bottom: 24px;
 }
 .party-detail p {
-    width: 697px;
     color: rgba(255, 255, 255, 0.80);
 font-family: Inter;
 font-size: 18px;
@@ -149,20 +132,21 @@ padding-bottom: 48px;
     color: #FFF;
     background: none;
     border: none;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-text-transform: uppercase;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
   }
 .party-image {
-display: flex;
-width: 319.83px;
-height: 464.662px;
-padding: 0.008px 0px 0px 0px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* location section */
 .location {
@@ -182,28 +166,9 @@ text-transform: capitalize;
 }
 .location-detail span {
     color: #070211;
-font-family: Inter;
-font-size: 32px;
-font-weight: 600;
-line-height: 56px;
-text-transform: capitalize;
 }
 .location-detail .btn {
-    display: inline-flex;
-    padding: 16px 32px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
     margin-top: 48px;
-    border-radius: 8px;
-    border: none;
-background: #F00;
-color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-text-transform: uppercase;
 }
 /* new year section */
 .new-year {
@@ -227,59 +192,57 @@ text-transform: uppercase;
 }  
 .new-year-detail2 {
     width: 463px;
-height: 463px;
-border-radius: 463px;
-border: 15px solid #F00;
-margin: 0 118px 0 70px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    margin: 0 118px 0 70px;
 }
 .new-year-detail2 .group-image {
     width: 364.844px;
-height: 364.844px;
-border-radius: 364.844px;
-margin: 35.1px;
+    height: 364.844px;
+    border-radius: 364.844px;
+    margin: 35.1px;
 }   
 .new-year-detail3 h1 {
     color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-padding-bottom: 16px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
 }  
 .new-year-detail3 p {
     width: 276px;
-padding-bottom: 43px;
+    padding-bottom: 43px;
 } 
 .new-year-detail3 img {
     width: 140px;
-height: 140px;
+    height: 140px;
 } 
 /* sale section */
 .sale-section-detail {
     margin: 0 auto;
-    width: 800px;
+    width: 1068px;
+    text-align: center;
 }
 .sale-section-detail h3 {
     color: #070211;
-font-family: Inter;
-text-align: center;
-font-size: 24px;
-font-weight: 500;
-padding-bottom: 16px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
 } 
 .sale-section-detail h1 {
     color: #070211;
-font-family: Merriweather;
-text-align: center;
-font-size: 72px;
-font-weight: 900;
-padding-bottom: 28px;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom: 28px;
 } 
 .sale-section-detail h1 span {
     color: #F00;
 }
 .sale-section-detail p {
     color: rgba(7, 2, 17, 0.60);
-    text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
@@ -293,7 +256,7 @@ padding-bottom: 28px;
 }
 .sale-section-images .image1{
     background-image: url("resources/Rectangle\ 1.png"); 
- display: flex;
+    display: flex;
     align-items: center;
     width: 429px;
     height: 433px;
@@ -302,23 +265,23 @@ padding-bottom: 28px;
     border-radius: 16px 16px 0px 0px;
 } 
 .sale-section-images .image1 img {
-    width: 250px;
-    height: 250px;
-   margin-left: -30%;
+    width: 280px;
+    height: 280px;
+    margin-left: -32%;
 }
 .sale-section-images .image2 {
     width: 1320px;
-height: 229px;
-position: relative;
-flex-shrink: 0;
-border-radius: 16px 0px 16px 16px;
-background: #F00;
+    height: 229px;
+    position: relative;
+    flex-shrink: 0;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
 } 
 .sale-section-images .image2 img {
-   width: 700px;
+    width: 700px;
     height: 600px;
     top: -400px;
-   position: absolute;
+    position: absolute;
 }                
 /* gallery section */
 .gallery-section-detail h4 {
@@ -364,7 +327,7 @@ background: #F00;
 }
 .newsletter img {
     width: 150px;
-    height: 150px;
+    height: 170px;
     padding-bottom: 40px;
 }
 .newsletter h1 {
@@ -380,8 +343,8 @@ background: #F00;
     width: 648px;
     height: 72px;
     border-radius: 50px;
-background: #FFF;
-display: flex;  
+    background: #FFF;
+    display: flex;
 }
 .newsletter form input {
     color: rgba(7, 2, 17, 0.30);
@@ -393,17 +356,17 @@ display: flex;
     font-weight: 600;
 }
 .newsletter form button {
- padding: 24px 56px;
- text-align: center;
-font-family: Inter;
-font-size: 20px;
-border: none;
-color: #ffffff;
-font-weight: 600;
- width: 210px; 
- height: 72px;  
-border-radius: 0px 50px 50px 0px;
-background: #F00;
+    padding: 24px 56px;
+    text-align: center;
+   font-family: Inter;
+   font-size: 20px;
+   border: none;
+   color: #ffffff;
+   font-weight: 600;
+    width: 210px; 
+    height: 72px;  
+   border-radius: 0px 50px 50px 0px;
+   background: #F00;
 }
 /* footer area */
 footer {
@@ -421,10 +384,10 @@ footer {
   display: flex; 
   flex-direction: column;
   color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 40px; /* 166.667% */ 
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */ 
 }
 .footer-detail{
     display: flex; 
@@ -452,7 +415,7 @@ line-height: 40px; /* 166.667% */
 }
 .social img {
     width: 64px;
-height: 64px;
+    height: 64px;
 }
 .rights {
     display: flex;
