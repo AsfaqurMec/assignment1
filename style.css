@@ -80,9 +80,10 @@ font-size: 88px;
 font-weight: 700;
 padding-bottom: 48px;
 }
-.offer p {
+.offer h3 {
     color: #F00;
 text-align: center;
+font-family: Inter;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
@@ -455,8 +456,7 @@ height: 64px;
 }
 .rights {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 50px;
+    justify-content: space-between;  
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
