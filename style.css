@@ -102,25 +102,26 @@ padding-bottom: 48px;
 }
 /* party section */
 .party-section {
-    background-image: url("resources/Vectorrr.png");
-height: 600px;
-border-radius: 16px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("resources/Vectorrr.png");   
+    height: 600px;
+     border-radius: 16px;
 }
 .party {
     display: flex;
     flex-direction: row;
     justify-content: center;
 align-items: center;
+gap: 39px;
 width: 1320px;
 height: 600px;
 border-radius: 16px;
-background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 .party-detail {
     width: 697px;
     display: flex;
     flex-direction: column;
     justify-content: left; 
+   
 }
 .party-detail h1 {
     width: 642px;
@@ -165,7 +166,7 @@ align-items: center;
 /* location section */
 .location {
     height: 482px;
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);  
+background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);  
 border-radius: 16px;
 padding: 100px 385px 110px 385px;
 }
@@ -385,7 +386,7 @@ display: flex;
     color: rgba(7, 2, 17, 0.30);
     flex-grow: 1;
     border-radius: 50px 0px 0px 50px;
-    border: none;
+    border: white;
     padding: 25px;
     font-size: 18px;
     font-weight: 600;
