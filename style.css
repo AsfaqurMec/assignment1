@@ -1,17 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,400&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Merriweather;
+    
 }
+.container {
+    width: 1320px;
+    margin: 120px auto;
+}
+.common-p {
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.common-h1 {
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.btn {
+  width: 167px;  
+  height: 56px;
+  border-radius: 8px;
+background: #F00;
+text-align: center;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+border: none;
+font-weight: 700;
+}
+/* header section */
 .banner {
     background-image: url("resources/Banner\ Image.png");
     width: 1320px;
 height: 600px;
 border-radius: 16px;
 margin: 50px auto;
-
-
 }
 .banner-detail {
     border-radius: 16px;
@@ -24,8 +57,7 @@ margin: 50px auto;
     font-family: Merriweather; 
     font-size: 32px;
     padding-bottom: 16px;
-    font-weight: 400;
-  
+    font-weight: 400; 
 }
 .banner-detail h1 {
     width: 632px;
@@ -33,10 +65,10 @@ margin: 50px auto;
 text-align: center;
 font-family: Merriweather;
 font-size: 75px;
-
 font-weight: 900;
 line-height: 95px; 
 }
+/* offer section */
 .offer {
     width: 802.9px;
 margin: 120px auto;
@@ -46,19 +78,15 @@ margin: 120px auto;
 text-align: center;
 font-family: Inter;
 font-size: 88px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
 padding-bottom: 48px;
 }
 .offer p {
     color: #F00;
 text-align: center;
-font-family: Inter;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
-line-height: normal;
 padding-bottom: 16px;
 } 
 .offer h2 {
@@ -66,26 +94,20 @@ padding-bottom: 16px;
 text-align: center;
 font-family: Inter;
 font-size: 48px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
 padding-bottom: 48px;
 }
 .offer img {
     width: 802.9px;
-    height: 500px;
-    
+    height: 500px;   
 }
-.banner1 {
-    
+/* party section */
+.party-section {
     background-image: url("resources/Vectorrr.png");
-    width: 1320px;
 height: 600px;
 border-radius: 16px;
-margin: 0px auto;
-
 }
-.bn {
+.party {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -95,48 +117,46 @@ height: 600px;
 border-radius: 16px;
 background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
-.banner-detail1 {
+.party-detail {
     width: 697px;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-   
+    justify-content: left; 
 }
-.banner-detail1 h1 {
+.party-detail h1 {
     width: 642px;
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
-    font-style: normal;
     font-weight: 900;
     line-height: 88px; /* 137.5% */
     letter-spacing: 7.04px; 
     padding-bottom: 24px;
 }
-.banner-detail1 p {
+.party-detail p {
     width: 697px;
     color: rgba(255, 255, 255, 0.80);
 font-family: Inter;
 font-size: 18px;
-font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
 padding-bottom: 48px;
 }
 
-.banner-detail1 .btn {
-    width: 103px;
-    height: 24px;
+.party-detail .btn1 {
+    width: 167px;  
+    height: 56px;
     color: #FFF;
+    background: none;
+    border: none;
 text-align: center;
 font-family: Inter;
 font-size: 20px;
-
 font-weight: 700;
-
 text-transform: uppercase;
-}
-.banner-image {
+  }
+
+.party-image {
 display: flex;
 width: 319.83px;
 height: 464.662px;
@@ -144,39 +164,36 @@ padding: 0.008px 0px 0px 0px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-flex-shrink: 0;
+
 }
-.banner2 {
-    width: 1320px;
+/* location section */
+.location {
     height: 482px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);  
 border-radius: 16px;
-margin: 120px auto;
 padding: 100px 385px 110px 385px;
 
 }
-.banner2-detail {
+.location-detail {
   
     color: #F00;
 text-align: center;
 font-family: Inter;
 font-size: 32px;
-font-style: normal;
 font-weight: 600;
 line-height: 56px; /* 175% */
 text-transform: capitalize;
 
 }
-.banner2-detail span {
+.location-detail span {
     color: #070211;
 font-family: Inter;
 font-size: 32px;
-font-style: normal;
 font-weight: 600;
 line-height: 56px;
 text-transform: capitalize;
 }
-.banner2-detail .btn {
+.location-detail .btn {
     display: inline-flex;
     padding: 16px 32px;
     justify-content: center;
@@ -190,111 +207,197 @@ color: #FFF;
 text-align: center;
 font-family: Inter;
 font-size: 20px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
 text-transform: uppercase;
-
 }
-.banner3 {
-    width: 1320px;
-    margin: 120px auto;
+/* new year section */
+.new-year {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-.detail h4 {
+.new-year .new-year-detail1 h3{
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal; 
     padding-bottom: 16px;
 }
-.detail h2 {
+.new-year .new-year-detail1 h1 {
+    padding-bottom: 22px;
+} 
+.new-year .new-year-detail1 p {
+    width: 393px;
+}  
+.new-year-detail2 {
+    width: 463px;
+height: 463px;
+border-radius: 463px;
+border: 15px solid #F00;
+margin: 0 118px 0 70px;
+}
+.new-year-detail2 .group-image {
+    width: 364.844px;
+height: 364.844px;
+border-radius: 364.844px;
+margin: 35.1px;
+}   
+.new-year-detail3 h1 {
+    color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+padding-bottom: 16px;
+}  
+.new-year-detail3 p {
+    width: 276px;
+padding-bottom: 43px;
+} 
+.new-year-detail3 img {
+    width: 140px;
+height: 140px;
+
+} 
+/* sale section */
+
+.sale-section-detail {
+    margin: 0 auto;
+    width: 800px;
+}
+.sale-section-detail h3 {
+    color: #070211;
+font-family: Inter;
+text-align: center;
+font-size: 24px;
+
+font-weight: 500;
+
+padding-bottom: 16px;
+} 
+.sale-section-detail h1 {
     color: #070211;
 font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
+text-align: center;
+font-size: 72px;
 font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
-padding-bottom: 16px;
+padding-bottom: 28px;
+} 
+.sale-section-detail h1 span {
+    color: #F00;
 }
-.detail p {
-    width: 896px;
+.sale-section-detail p {
+    
     color: rgba(7, 2, 17, 0.60);
+    text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; /* 160% */ 
+    font-weight: 500;
+    line-height: 32px; /* 160% */  
+    padding-bottom: 64px;
+}
+.sale-section-images {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.sale-section-images .image1{
+    background-image: url("resources/Rectangle\ 1.png");
+   
+ display: flex;
+    align-items: center;
+    width: 429px;
+    height: 433px;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+} 
+.sale-section-images .image1 img {
+    width: 250px;
+    height: 250px;
+   margin-left: -30%;
+    
+
+}
+.sale-section-images .image2 {
+    width: 1320px;
+height: 229px;
+position: relative;
+flex-shrink: 0;
+border-radius: 16px 0px 16px 16px;
+background: #F00;
+} 
+.sale-section-images .image2 img {
+   width: 700px;
+    height: 600px;
+    top: -400px;
+   position: absolute;
+}                
+/* gallery section */
+.gallery-section-detail h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+.gallery-section-detail h1 {
+     padding-bottom: 16px;
+}
+.gallery-section-detail p {
+    width: 896px;
     padding-bottom: 48px;
 }
-.pic {
+.gallery {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
-.pic1 {
+.gallery-pic {
     display: flex;
     flex-direction: row;
     gap: 24px;
 }
-.pic1 img {
+.gallery-pic img {
     width: 424px;
-height: 450px;
-
-border-radius: 16px;
-
+    height: 450px;
+    border-radius: 16px;
 }
-.banner4 {
-    width: 1320px;
-height: 616px;
-padding: 80px 212px 80px 212px;
-border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
-margin: 120px auto;
+/* newsletter section */
+.newsletter {
+    height: 616px;
+    padding: 80px 212px 80px 212px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
 }
-.banner4-detail {
+.newsletter-detail {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.banner4 img {
+.newsletter img {
     width: 150px;
-height: 150px;
-padding-bottom: 40px;
+    height: 150px;
+    padding-bottom: 40px;
 }
-.banner4 h1 {
-    color: #070211;
+.newsletter h1 {
     text-align: center;
-    font-family: Merriweather;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    text-transform: capitalize;
     padding-bottom: 22px; 
 }
-.banner4 p {
-    width: 896px;
-    color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-padding-bottom: 48px;
+.newsletter p {
+    width: 896px;  
+    text-align: center;
+    padding-bottom: 48px;
 }
-.banner4 form  {
+.newsletter form  {
     width: 648px;
     height: 72px;
-    flex-shrink: 0;
     border-radius: 50px;
 background: #FFF;
 display: flex;  
 }
-.banner4 form input {
+.newsletter form input {
     color: rgba(7, 2, 17, 0.30);
     flex-grow: 1;
     border-radius: 50px 0px 0px 50px;
@@ -303,7 +406,7 @@ display: flex;
     font-size: 18px;
     font-weight: 600;
 }
-.banner4 form button {
+.newsletter form button {
  padding: 24px 56px;
  text-align: center;
 font-family: Inter;
@@ -313,62 +416,53 @@ color: #ffffff;
 font-weight: 600;
  width: 210px; 
  height: 72px;  
-flex-shrink: 0;
 border-radius: 0px 50px 50px 0px;
 background: #F00;
 }
+/* footer area */
 footer {
     background: #070211;
     margin: 120px auto 0 auto;
     padding: 120px 140px;
 }
-.f {
+.footer {
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
     border-bottom: 1px solid white;
 }
-.f1 {
+.footer-detail{
   display: flex; 
   flex-direction: column;
   color: #FFF;
 font-family: Inter;
 font-size: 24px;
-font-style: normal;
 font-weight: 500;
 line-height: 40px; /* 166.667% */ 
 }
-.f2 {
+.footer-detail{
     display: flex; 
-    flex-direction: column; 
-
+    flex-direction: column;
 }
-.f2 .f21 {
+.footer-detail .title {
     display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    gap: 10px;
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 166.667% */
+    gap: 10px;  
 }
-.f2 .f21 img {
+.footer-detail .title img {
     width: 24px;
-height: 24px;
-
+    height: 24px;
 }
 .social {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-padding: 48px 0;
-border-bottom: 1px solid white;
-gap: 24px;
+    padding: 48px 0;
+    border-bottom: 1px solid white;
+    gap: 24px;
 }
 .social img {
     width: 64px;
@@ -380,184 +474,8 @@ height: 64px;
     justify-content: space-between;
     padding-bottom: 50px;
     color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding-top: 50px; 
-}
-.new-year {
-    width: 1320px;
-    margin: 120px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.new-year .new-year-detail1 h3{
-    color: #F00;
-    
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
-    padding-bottom: 16px;
+    padding-top: 50px; 
 }
-.new-year .new-year-detail1 h1 {
-    color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
-padding-bottom: 22px;
-} 
-.new-year .new-year-detail1 p {
-    width: 393px;
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-}  
-.new-year-detail2 {
-    width: 463px;
-height: 463px;
-flex-shrink: 0;
-border-radius: 463px;
-border: 15px solid #F00;
-margin: 0 118px 0 70px;
-}
-.new-year-detail2 .group-image {
-    width: 364.844px;
-height: 364.844px;
-flex-shrink: 0;
-border-radius: 364.844px;
-margin: 35.1px;
-}   
-.new-year-detail3 h1 {
-    color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-bottom: 16px;
-}  
-.new-year-detail3 p {
-    width: 276px;
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-padding-bottom: 43px;
-} 
-.new-year-detail3 img {
-    width: 140px;
-height: 140px;
-
-} 
-.cc {
-    width: 1320px;
-    margin: 120px auto;
-
-}  
-.cc-detail {
-    margin: 0 auto;
-    width: 800px;
-}
-.cc-detail h3 {
-    color: #070211;
-font-family: Inter;
-text-align: center;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding-bottom: 16px;
-} 
-.cc-detail h1 {
-    color: #070211;
-font-family: Merriweather;
-text-align: center;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-padding-bottom: 28px;
-} 
-.cc-detail h1 span {
-    color: #F00;
-}
-.cc-detail p {
-    
-    color: rgba(7, 2, 17, 0.60);
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 32px; /* 160% */  
-    padding-bottom: 64px;
-}
-.cc-images {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-}
-.cc-image-section {
-    display: flex;
-   flex-direction: row;
-    
-}
-
-.cc-images1 img {
-    width: 700px;
-    height: 600px;
-    position: absolute;
-    fill: radial-gradient(49.96% 50% at 50% 50.23%, #121111 0%, #FFF 100%);
-   
-    mix-blend-mode: multiply;
-   
-
-}
-.cc-images2 {
-    background-image: url("resources/Rectangle\ 1.png");
-   
- display: flex;
-    align-items: center;
-    width: 429px;
-    height: 433px;
-    background-position: right;
-  background-repeat: no-repeat;
-border-radius: 16px 16px 0px 0px;
-flex-shrink: 0;
-} 
-.cc-images2 img {
-    width: 250px;
-    height: 250px;
-   margin-left: -30%;
-    
-
-}
-.cc-images3 {
-    width: 1320px;
-height: 229px;
-position: relative;
-flex-shrink: 0;
-border-radius: 16px 0px 16px 16px;
-background: #F00;
-} 
-.cc-images3 img {
-   width: 700px;
-    height: 600px;
-    top: -400px;
-   position: absolute;
-   
-}                
