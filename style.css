@@ -248,6 +248,7 @@
     color: #F00;
 }
 .sale-section-detail p {
+    
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
@@ -362,7 +363,7 @@
     border-radius: 50px 0px 0px 50px;
     border: none;
     padding: 25px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;  
 }
 .newsletter form input:focus {
@@ -381,9 +382,12 @@
    border-radius: 0px 50px 50px 0px;
    background: #F00;
 }
+.newsletter form button:hover {
+    background: rgb(255, 128, 0); 
+}
 /* footer area */
 footer {
-    width: 1600px;
+    width: 100%;
     background: #070211;
     margin: 120px auto 0 auto;
     padding: 120px 140px;
