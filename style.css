@@ -370,6 +370,7 @@ text-transform: capitalize;
 }
 /* footer area */
 footer {
+    width: 1600px;
     background: #070211;
     margin: 120px auto 0 auto;
     padding: 120px 140px;
