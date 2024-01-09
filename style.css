@@ -364,6 +364,9 @@ text-transform: capitalize;
     font-size: 18px;
     font-weight: 600;  
 }
+.newsletter form input:focus {
+    outline: 0;
+}
 .newsletter form button {
     padding: 24px 56px;
     text-align: center;
