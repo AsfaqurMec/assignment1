@@ -116,8 +116,9 @@ padding-bottom: 48px;
     width: 167px;  
     height: 56px;
     color: #FFF;
-    background: none;
-    border: none;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
@@ -125,6 +126,10 @@ padding-bottom: 48px;
     text-transform: uppercase;
     cursor: pointer;
   }
+.party-detail .btn1:hover {
+    color: #020202;
+    background: rgba(255, 255, 255, 0.918);
+} 
 .party-image {
     display: flex;
     width: 319.83px;
@@ -171,7 +176,6 @@ text-transform: capitalize;
 .btn2:hover {
       background: rgb(255, 149, 0); 
   }
-
 /* new year section */
 .new-year {
     display: flex;
@@ -358,8 +362,7 @@ text-transform: capitalize;
     border: none;
     padding: 25px;
     font-size: 18px;
-    font-weight: 600;
-    
+    font-weight: 600;  
 }
 .newsletter form button {
     padding: 24px 56px;
